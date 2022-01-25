@@ -15,32 +15,34 @@ html {
 }
 
 .App {
-  display: flex;
-  width: 100%;
-  min-height: 150vh;
-  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #000000 92.19%), url("./assets/mainBG.png") black;
-  justify-content: flex-end;
-  padding-right: calc(8rem + 2vw);
-  background-size: cover;
-  @media (max-width: 600px) {
-    padding-right: 0;
-  }
-  @media (min-width: 2500px) {
-    padding-right: calc(25vw);
-  }
+  // display: flex;
+  // width: 100%;
+  // min-height: 150vh;
+  // background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #000000 92.19%), url("./assets/mainBG.png") black;
+  // justify-content: flex-end;
+  // padding-right: calc(8rem + 2vw);
+  // background-size: cover;
+  // @media (max-width: 600px) {
+  //   padding-right: 0;
+  // }
+  // @media (min-width: 2500px) {
+  //   padding-right: calc(25vw);
+  // }
+
+//  hello there hehe
 }
 
 .logo {
-  position: fixed;
-  top: 2%;
-  left: 2%;
-  width: calc(20rem + 10vw);
-
-  @media (max-width: 600px) {
-    background-size: cover;
-    height: calc(5rem + 5vw);
-    width: calc(100vw - (5rem + 5vw));
-    top: 0;
-    left: 0;
-  }
+  //position: fixed;
+  //top: 2%;
+  //left: 2%;
+  //width: calc(20rem + 10vw);
+  //
+  //@media (max-width: 600px) {
+  //  background-size: cover;
+  //  height: calc(5rem + 5vw);
+  //  width: calc(100vw - (5rem + 5vw));
+  //  top: 0;
+  //  left: 0;
+  //}
 }
