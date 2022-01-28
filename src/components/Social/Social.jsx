@@ -45,6 +45,7 @@ const SocialCont = styled.div`
   display: flex;
   background-color: #191919;
   align-items: center;
+  z-index:101;
   padding-bottom: calc(1rem + 0.1vw);
   @media (max-width: 600px) {
 

@@ -26,7 +26,7 @@ const Nav = styled.nav`
   height: 100vh;
   width: calc(8rem + 2vw);
   background: #464646;
-  @media (max-width: 600px) {
+  @media (max-width: 850px) {
     font-size: calc(5rem + 5vw);
     width: 1em;
     height: 1em;

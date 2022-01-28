@@ -32,19 +32,19 @@ const CenterCont = styled.div`
   width: 100vw;
   height: 100vh;
   padding-top: 30vh;
+  
   @media (max-width: 950px) {
     max-width: initial;
     width: calc(100vw - (8rem + 2vw));
     padding: 30vh 5rem 0;
   }
-  @media (max-width: 800px) {
+  @media (max-width: 850px) {
     max-width: initial;
-    width: calc(100vw - (8rem + 2vw));
-    padding: 30vh 0 0 0;
+    width: 100%;
+    padding: 30vh 10% 0; 
   }
   @media (max-width: 600px) {
     max-width: initial;
-    width: 100vw;
     padding: 30vh 0 0 0;
   }
   ////////////
@@ -75,8 +75,13 @@ const TextBox = styled.div`
     width: 100%;
     display: block;
     text-align: center;
-    letter-spacing: 2rem;
     margin: 1rem 0;
+    letter-spacing: 2rem;
+
+    @media (max-width: 500px) {
+    letter-spacing: calc(1rem + 1vw);
+    font-size: calc( 7vw);
+  }
   }
 
   p:nth-of-type(1) {
